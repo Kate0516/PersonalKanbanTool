@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c5b1f56-2f5e-446b-a2c8-94e852ab8ec2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/repositories/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/services/ProjectServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/web/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/domain/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/domain/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="3c5b1f56-2f5e-446b-a2c8-94e852ab8ec2" name="Changes" comment="set validations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/exceptions/CustomResponseEntityExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/exceptions/ProjectidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/exceptions/ProjectidExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/services/MapValidationErrorServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/repositories/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/repositories/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/services/ProjectServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/services/ProjectServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/web/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/web/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/repositories/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/repositories/ProjectRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/services/ProjectServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/services/ProjectServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/web/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/web/ProjectController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$/.." value="branch5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="24GTaNcUELWwZUSLncUgtGYUbXO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,8 +88,18 @@
       <workItem from="1643428645195" duration="139000" />
       <workItem from="1643428798934" duration="867000" />
       <workItem from="1643429685126" duration="2489000" />
-      <workItem from="1643432207093" duration="1051000" />
+      <workItem from="1643432207093" duration="1376000" />
+      <workItem from="1643692236831" duration="4287000" />
+      <workItem from="1643929026070" duration="1370000" />
     </task>
+    <task id="LOCAL-00001" summary="set validations">
+      <created>1643433417639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643433417639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +116,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="set validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="set validations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
