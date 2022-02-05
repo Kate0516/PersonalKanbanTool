@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c5b1f56-2f5e-446b-a2c8-94e852ab8ec2" name="Changes" comment="set validations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/exceptions/CustomResponseEntityExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/exceptions/ProjectidException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/exceptions/ProjectidExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/services/MapValidationErrorServices.java" afterDir="false" />
+    <list default="true" id="3c5b1f56-2f5e-446b-a2c8-94e852ab8ec2" name="Changes" comment="branch10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/repositories/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/repositories/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/services/ProjectServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/services/ProjectServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/web/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/zhengao/personalprojectmanagementtool/web/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/repositories/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/repositories/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/services/ProjectServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/services/ProjectServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/web/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/zhengao/personalprojectmanagementtool/web/ProjectController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +80,8 @@
       <workItem from="1643429685126" duration="2489000" />
       <workItem from="1643432207093" duration="1376000" />
       <workItem from="1643692236831" duration="4287000" />
-      <workItem from="1643929026070" duration="1370000" />
+      <workItem from="1643929026070" duration="4122000" />
+      <workItem from="1644030202635" duration="1505000" />
     </task>
     <task id="LOCAL-00001" summary="set validations">
       <created>1643433417639</created>
@@ -99,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643433417639</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="branch10">
+      <created>1643930702060</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643930702060</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set validations" />
-    <option name="LAST_COMMIT_MESSAGE" value="set validations" />
+    <MESSAGE value="branch10" />
+    <option name="LAST_COMMIT_MESSAGE" value="branch10" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
